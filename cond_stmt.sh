@@ -19,6 +19,6 @@ else
  if [ "$marks" -ge 50 ]; then
    echo "Barely Passed !"
  else
-   echo"Failed"
+   echo "Failed"
  fi
 fi
