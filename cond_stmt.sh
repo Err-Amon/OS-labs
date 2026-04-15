@@ -14,6 +14,11 @@ elif [ "$marks" -ge 80 -a "$marks" -le 100 ]; then
  echo "You passed with good marks! congrats."
 elif [ "$marks" -gt 100 ]; then
  echo "Invalid marks!"
+#nested if else
 else
- echo "You failed!"
+ if [ "$marks" -ge 50 ]; then
+   echo "Barely Passed !"
+ else
+   echo"Failed"
+ fi
 fi
