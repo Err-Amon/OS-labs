@@ -1,5 +1,5 @@
 #!/bin/bash
-for n in {1..5..2};
+for n in {1..10..3};
 do
   echo $n
 done
